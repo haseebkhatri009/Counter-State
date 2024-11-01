@@ -1,0 +1,72 @@
+*{
+  background-color: rgb(103, 59, 133);
+}
+/* button{
+  border: 2px solid rgb(10, 59, 43);
+  text-align: center;
+  position: relative;
+  left: 75px;
+  top: 20px;
+  width: 150px;
+  height: 70px;
+  border-radius: 15px;
+  background-color: rgb(10, 59, 43);
+} */
+#add,#sub{
+  height: 70px;
+  width: 150px;
+  position: relative;
+  left: 75px;
+  background-color: rgb(103, 59, 133);
+  font-size: 30px;
+  font-family: monospace;
+  border-radius: 100px;
+  color: white;
+}
+#add{
+  position: relative;
+  top: 40px;
+  border: none;
+}
+#sub{
+  position: relative;
+  top: 90px;
+  border: none;
+}
+#add:hover{
+  background-color: rgb(83, 29, 119);
+}
+#sub:hover{
+  background-color: rgb(83, 29, 119);
+}
+#maindiv{
+  /* border: 1px solid; */
+  border-radius: 30px;
+  height: 340px;
+  width: 300px;
+  position: relative;
+  left: 37%;
+  top: 100px;
+  background-color: rgb(128, 92, 156);
+}
+span{
+  position: relative;
+  left: 140px;
+  top: 55px;
+  font-size: 40px;
+  font-family: monospace;
+  background-color: rgb(128, 92, 156);;
+  color: black;
+}
+@media (min-width: 350px) and (max-width: 380px) {
+  #maindiv{
+    position: relative;
+    left: 25px;
+  }
+}
+@media (min-width: 200px) and (max-width: 350px) {
+  #maindiv{
+    position: relative;
+    left: 10px;
+  }
+}
